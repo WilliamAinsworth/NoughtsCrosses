@@ -1,0 +1,33 @@
+.container {
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*align-items: flex-end;*/
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 15rem 15rem 15rem;
+  grid-template-rows: 15rem 15rem 15rem;
+  margin: 5rem;
+}
+
+.msg {
+  height: 5rem;
+  width: auto;
+  background-color: #145DA0;
+  border-color: steelblue;
+  border-style: solid;
+  border-width: 0.5rem;
+}
+
+.msg h1 {
+  display: flex;
+  justify-content: flex-start;
+  background-color: steelblue;
+}
+
+.restart {
+  padding: 1rem;
+  font-size: 2rem;
+  margin: 2rem;
+}

@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="msg">
+    <h1>Welcome to Noughts & Crosses: {{winnerString}}</h1>
+  </div>
+  <div class="board">
+
+    <app-grid-point></app-grid-point>
+    <app-grid-point></app-grid-point>
+    <app-grid-point></app-grid-point>
+
+    <app-grid-point></app-grid-point>
+    <app-grid-point></app-grid-point>
+    <app-grid-point></app-grid-point>
+
+    <app-grid-point></app-grid-point>
+    <app-grid-point></app-grid-point>
+    <app-grid-point></app-grid-point>
+
+  </div>
+
+
+  <button [className]="'restart'" (click)="restartClick()">
+    Restart
+  </button>
+</div>
