@@ -2,13 +2,20 @@
   /*display: flex;*/
   /*justify-content: center;*/
   /*align-items: flex-end;*/
+  width: 80%;
 }
 
 .board {
+  width: 80%;
   display: grid;
-  grid-template-columns: 15rem 15rem 15rem;
-  grid-template-rows: 15rem 15rem 15rem;
+  grid-template-columns: 25vw 25vw 25vw;
+  /*grid-template-rows: 15rem 15rem 15rem;*/
+
+  grid-template-rows: 25vw 25vw 25vw
+
+;
   margin: 5rem;
+  /*overflow: no-content;*/
 }
 
 .msg {
